@@ -1,0 +1,3 @@
+#model writing guide:
+#tag_name@attr_name:attr_val|tag2_name@attr_name2:attr_val2...>destination_attr_name#merchant_info_tag@merchant_info_attr:merchant_info_val
+groupon https://www.groupon.com/browse/new-york?category=food-and-drink&lat=40.71427&lng=-74.00597&address=New%20York%20City%2C%20NY div@class:content|a@class:url>href#a@class:merchant-website
