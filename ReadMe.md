@@ -10,7 +10,7 @@
 > - Link extraction from seed website
 > - Email and phone number extraction from the extracted links
 
-#######Technical Details
+######Technical Details
 ---
 
 * For each coupon site apply a specific model implying which part of the page to download
@@ -33,14 +33,14 @@
 ######Usage
 ---
 
-0-0. Install all dependencies
-0-1. Make sure all files are in one directory and create a directory named 'output'
-1.1. Modify the file 'models', add name, url and specific attributes for the website you want to parse
-1.2. Import Controller
-1.3. Pass the name in the model file or website for an unknown site to the function 'start'
-1.4. Find the results in the folder 'output' with the parameter you passed as name
-2.1. Modify the file 'models', add name, url and specific attributes for the website you want to parse
-2.2. Set the parameter in main function of the file Controller to the name in models or url for an unknown site
-2.3. In terminal directly call 	python Controller.py
-2.4. Find the results in the folder 'output' with the parameter to the 'start' function as name
+- 0-0. Install all dependencies
+- 0-1. Make sure all files are in one directory and create a directory named 'output'
+- 1.1. Modify the file 'models', add name, url and specific attributes for the website you want to parse
+- 1.2. Import Controller
+- 1.3. Pass the name in the model file or website for an unknown site to the function 'start'
+- 1.4. Find the results in the folder 'output' with the parameter you passed as name
+- 2.1. Modify the file 'models', add name, url and specific attributes for the website you want to parse
+- 2.2. Set the parameter in main function of the file Controller to the name in models or url for an unknown site
+- 2.3. In terminal directly call 	python Controller.py
+- 2.4. Find the results in the folder 'output' with the parameter to the 'start' function as name
 
